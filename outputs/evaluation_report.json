@@ -1,0 +1,38 @@
+{
+  "threshold": 0.38000000000000006,
+  "threshold_selection": {
+    "threshold": 0.38000000000000006,
+    "precision": 0.1800639768857703,
+    "recall": 0.702920443101712,
+    "f1": 0.2866882983529798,
+    "strategy": "Recall>=0.70 max Precision"
+  },
+  "metrics": {
+    "roc_auc": 0.7794387768751775,
+    "pr_auc": 0.2764534641944077,
+    "accuracy": 0.7176235305594849,
+    "precision": 0.1800639768857703,
+    "recall": 0.702920443101712,
+    "f1": 0.2866882983529798,
+    "confusion_matrix": {
+      "tn": 40646,
+      "fp": 15892,
+      "fn": 1475,
+      "tp": 3490
+    }
+  },
+  "data_shapes": {
+    "X_train": [
+      246008,
+      565
+    ],
+    "X_test": [
+      61503,
+      565
+    ]
+  },
+  "notes": {
+    "threshold_strategy": "Primero busca Recall>=0.70 maximizando Precision; si no existe, usa el mejor F1.",
+    "metrics": "ROC-AUC, PR-AUC, Accuracy (referencial), Precision, Recall, F1, matriz de confusion."
+  }
+}
