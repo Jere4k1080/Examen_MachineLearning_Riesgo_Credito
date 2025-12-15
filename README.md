@@ -76,7 +76,7 @@ project_root/
 ├── 02_data_preparation/        **Fase 2: Ingeniería de Características**
 │   └── 02_data_preparation.py
 │
-├── 03_modeling/                **Fase 3: Entrenamiento el que mas tiempo de espera tiene**
+├── 03_modeling/                **Fase 3: Entrenamiento**
 │   └── 03_modeling.py
 │
 ├── 04_evaluation/              **Fase 4: Métricas**

@@ -158,3 +158,25 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# --- Ignorar archivos pesados generados ---
+
+# Ignorar todos los modelos pesados
+*.pkl
+*.h5
+*.joblib
+
+# Ignorar datasets procesados (suelen ser pesados)
+*.parquet
+/data/*
+
+# --- EXCEPCIONES (Lo que SÍ queremos subir) ---
+# El signo de exclamación (!) significa "No ignorar esto"
+
+# Queremos subir la evidencia visual
+!outputs/*.png
+!outputs/*.json
+!outputs/*.txt
+
+# Queremos subir configuraciones de la API (aunque estén en artifacts)
+!artifacts/*.json
