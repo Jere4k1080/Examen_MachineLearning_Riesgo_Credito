@@ -336,6 +336,22 @@ Este proyecto demuestra un flujo completo, realista y profesional de Machine Lea
 
 
 ---------------------------------------
+## Dataset Procesado Final
+**NOTA TÉCNICA:** El dataset procesado final (`X_train_processed.parquet`) excede el límite estricto de 100MB de GitHub (incluso comprimido).
+
+Para cumplir con la entrega, el archivo se encuentra disponible para descarga directa en el siguiente enlace seguro:
+
+ **[DESCARGAR DATASET PROCESADO AQUÍ] (https://drive.google.com/file/d/1F6iXSgcQIhvR1W9A2xAjo8dHVWNqyv02/view?usp=sharing)**
+
+*Alternativamente, este archivo puede ser regenerado localmente ejecutando el script:*
+`python 02_data_preparation/02_data_preparation.py`
+
+---------------------------------------
+
+
+
+
+
 
 #End README.md
 
