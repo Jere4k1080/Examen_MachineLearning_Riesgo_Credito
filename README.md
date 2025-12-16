@@ -69,6 +69,7 @@ project_root/
 │   ├── payload_aprobado.json
 │   ├── payload_revision.json
 │   └── payload_rechazado.json
+
 │
 ├── 01_data_understanding/      **Fase 1: Análisis**
 │   └── 01_data_understanding.py
