@@ -45,57 +45,92 @@ Este proyecto implementa un pipeline completo de Machine Learning para predecir 
 project_root/
 
 │
+
 ├── artifacts/                  **Modelos y datasets procesados**
+
 │   ├── best_model.pkl
+
 │   ├── X_train_processed.parquet
+
 │   ├── y_train_processed.parquet
+
 │   └── X_columns.json
+
 │
 
 ├── data/                       **Datos originales**
+
 │   ├── application_.parquet
+
 │   ├── bureau.parquet
+
 │   ├── bureau_balance.parquet
+
 │   ├── credit_card_balance.parquet
+
 │   ├── installments_payments.parquet
+
 │   ├── POS_CASH_balance.parquet
+
 │   └── previous_application.parquet
+
 │
 
 ├── outputs/                    **Resultados y evidencias**
+
 │   ├── evaluation_report.json
+
 │   ├── classification_report.txt
+
 │   ├── confusion_matrix.png
+
 │   ├── roc_curve.png
+
 │   ├── pr_curve.png
+
 │   ├── feature_importance.png
+
 │   ├── payload_aprobado.json
+
 │   ├── payload_revision.json
+
 │   └── payload_rechazado.json
 
 │
 ├── 01_data_understanding/      **Fase 1: Análisis**
+
 │   └── 01_data_understanding.py
+
 │
 
 ├── 02_data_preparation/        **Fase 2: Ingeniería de Características**
+
 │   └── 02_data_preparation.py
+
 │
 
 ├── 03_modeling/                **Fase 3: Entrenamiento**
+
 │   └── 03_modeling.py
+
 │
 
 ├── 04_evaluation/              **Fase 4: Métricas**
+
 │   └── 04_evaluation.py
+
 │
 
 ├── 05_deployment/              **Fase 5: API REST**
+
 │   ├── 05_deployment.py
+
 │   └── payloads/
+
 │
 
 ├── requirements.txt
+
 └── README.md
 
 
